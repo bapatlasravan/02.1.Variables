@@ -1,0 +1,23 @@
+"""
+Day 02 part 02
+Date: 19th April 2022 Tuesday
+Name: Bapatla sravan
+File Desc: variable rules,way to assign variables&isidentifier()
+"""
+
+a=10;b=15
+print(a) #10
+print(b) #15
+print(a);print(b) #10
+                  #15
+print (a,b)
+# print(c) #Name Error: name 'c' is not defined
+print('Python'.isidentifier()) #True
+print('_py'.isidentifier()) #True
+print('p_y'.isidentifier()) #True
+print('Py_'.isidentifier()) #True
+print('P_0'.isidentifier()) #True
+print('n.1'.isidentifier()) #False
+print('a 1_'.isidentifier()) #False
+print('9'.isidentifier())  #False
+print('@'.isidentifier())  #False
